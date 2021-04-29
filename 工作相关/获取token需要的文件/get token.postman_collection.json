@@ -1,0 +1,256 @@
+{
+	"info": {
+		"_postman_id": "ec9534f8-05bc-46ef-87dc-f6fbc54c004d",
+		"name": "get token",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get token",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ab8121dd29a04ce0bc3db828e6f3d20a",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "Lingyun_mall",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "sobeyhive-http-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiaGl2ZSJdLCJ1c2VyX2luZm8iOnsic2l0ZSI6InNvYmV5TGluZ1l1bk1hbGwiLCJ1c2VySWQiOiIzMDAwNiIsImxvZ2luTmFtZSI6ImZlbmdoYW8iLCJ1c2VybmFtZSI6ImZlbmdoYW8iLCJ1c2VyQ29kZSI6ImJiODkxODBiZTY1YTRiNzU5OTExMzkxM2Q5YzhhMjI5IiwidXNlclR5cGUiOm51bGwsImVtYWlsIjoiMzQ3ODUyMzM1QHFxLmNvbSIsIm5pY2tOYW1lIjpudWxsLCJkZXNjcmlwdGlvbiI6InNhZOiIkuacjeaSkuS4iuWkp-S6i-WPkeeUn-eahOi6q-S7vemhuumhuuW9k-W9kyIsImF2YXRhciI6bnVsbCwicGhvbmUiOiIxODA4MDE4MDg4MCIsInJvbGVzIjpbIk9lR0YxRW45b0JQN090UWhGdXBQZU9qdW9EV3lFdmczIiwiNXNHcXVvZDdzUjlxMExOVGtLSjRnVHN5bHpDdU91cEEiLCJnbWE5dUxVR0xWNnNrT2dlNVhueDdiZXhZRFVjaUhyaSJdLCJjb250ZW50UHJpdmlsZWdlcyI6WyJwcml2YXRlX2JiODkxODBiZTY1YTRiNzU5OTExMzkxM2Q5YzhhMjI5OioiLCJwdWJsaWNfUzE6KiIsIkFub255bW91czoqIl0sInBlcm1pc3Npb25zIjpbXSwicmVsYXRpb25JZHMiOm51bGwsImdyb3VwcyI6bnVsbCwib3JnYW5pemF0aW9ucyI6W3sic2l0ZUNvZGUiOiJzb2JleUxpbmdZdW5NYWxsIiwic2l0ZU5hbWUiOm51bGwsImlkIjoyLCJvcmdhbml6YXRpb25Db2RlIjoic29iZXlNYWxsT3JnIiwib3JnYW5pemF0aW9uTmFtZSI6Iue0oui0neWHjOS6keWVhuWfjuaguee7hOe7hyIsImRlc2NyaXB0aW9uIjoi57Si6LSd5YeM5LqR5ZWG5Z-O5qC557uE57uHIiwicGFyZW50SWQiOjAsInBhcmVudE9yZ2FuaXphdGlvbiI6bnVsbCwib3BlcmF0ZSI6MCwiZXh0ZW5kQXR0cmlidXRlcyI6bnVsbCwiZXh0ZXJuYWxDb2RlIjpudWxsfV0sImNsaWVudENvZGVzIjpudWxsLCJsb2NrZWQiOmZhbHNlLCJkaXNhYmxlIjpmYWxzZSwiYm91bmRUUEF1dGhUeXBlcyI6W119LCJncmFudF90eXBlIjoicGFzc3dvcmQiLCJ1c2VyX25hbWUiOiJmZW5naGFvIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTU5MTc1OTk4NiwiYXV0aG9yaXRpZXMiOlsiT2VHRjFFbjlvQlA3T3RRaEZ1cFBlT2p1b0RXeUV2ZzMiLCI1c0dxdW9kN3NSOXEwTE5Ua0tKNGdUc3lsekN1T3VwQSIsImdtYTl1TFVHTFY2c2tPZ2U1WG54N2JleFlEVWNpSHJpIl0sImp0aSI6ImRhZDc0M2NhLTU2MjktNGQ4Mi05OWI3LThhMTc1YTI3ODBmMyIsImNsaWVudF9pZCI6ImFkbWluIn0.DAWUeXdqmC_fRs49UNkPzJPqpbB-xGAOqbTosCm7qGA",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "sobeyhive-http-site",
+						"value": "sobeyLingYunMall",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46JDBiRXlIaXZlJjJvMVNpeA==",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "password",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "sobeyxiaodan",
+							"description": "sobeyxiaodan /  jiangfan  /18780127374  /lgc",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "S0obeylingyun",
+							"description": "S0obeylingyun  /  Lingyun123 /123Qaz /Sobey2020",
+							"type": "text"
+						},
+						{
+							"key": "Authorization",
+							"value": "",
+							"description": "Basic TGluZ3l1bl9tYWxsOmFiODEyMWRkMjlhMDRjZTBiYzNkYjgyOGU2ZjNkMjBh",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://authentication.sobeylingyun.com/oauth/token",
+					"protocol": "https",
+					"host": [
+						"authentication",
+						"sobeylingyun",
+						"com"
+					],
+					"path": [
+						"oauth",
+						"token"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get token basic",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ab8121dd29a04ce0bc3db828e6f3d20a",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "Lingyun_mall",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "sobeyhive-http-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiaGl2ZSJdLCJ1c2VyX2luZm8iOnsic2l0ZSI6InNvYmV5TGluZ1l1bk1hbGwiLCJ1c2VySWQiOiIzMDAwNiIsImxvZ2luTmFtZSI6ImZlbmdoYW8iLCJ1c2VybmFtZSI6ImZlbmdoYW8iLCJ1c2VyQ29kZSI6ImJiODkxODBiZTY1YTRiNzU5OTExMzkxM2Q5YzhhMjI5IiwidXNlclR5cGUiOm51bGwsImVtYWlsIjoiMzQ3ODUyMzM1QHFxLmNvbSIsIm5pY2tOYW1lIjpudWxsLCJkZXNjcmlwdGlvbiI6InNhZOiIkuacjeaSkuS4iuWkp-S6i-WPkeeUn-eahOi6q-S7vemhuumhuuW9k-W9kyIsImF2YXRhciI6bnVsbCwicGhvbmUiOiIxODA4MDE4MDg4MCIsInJvbGVzIjpbIk9lR0YxRW45b0JQN090UWhGdXBQZU9qdW9EV3lFdmczIiwiNXNHcXVvZDdzUjlxMExOVGtLSjRnVHN5bHpDdU91cEEiLCJnbWE5dUxVR0xWNnNrT2dlNVhueDdiZXhZRFVjaUhyaSJdLCJjb250ZW50UHJpdmlsZWdlcyI6WyJwcml2YXRlX2JiODkxODBiZTY1YTRiNzU5OTExMzkxM2Q5YzhhMjI5OioiLCJwdWJsaWNfUzE6KiIsIkFub255bW91czoqIl0sInBlcm1pc3Npb25zIjpbXSwicmVsYXRpb25JZHMiOm51bGwsImdyb3VwcyI6bnVsbCwib3JnYW5pemF0aW9ucyI6W3sic2l0ZUNvZGUiOiJzb2JleUxpbmdZdW5NYWxsIiwic2l0ZU5hbWUiOm51bGwsImlkIjoyLCJvcmdhbml6YXRpb25Db2RlIjoic29iZXlNYWxsT3JnIiwib3JnYW5pemF0aW9uTmFtZSI6Iue0oui0neWHjOS6keWVhuWfjuaguee7hOe7hyIsImRlc2NyaXB0aW9uIjoi57Si6LSd5YeM5LqR5ZWG5Z-O5qC557uE57uHIiwicGFyZW50SWQiOjAsInBhcmVudE9yZ2FuaXphdGlvbiI6bnVsbCwib3BlcmF0ZSI6MCwiZXh0ZW5kQXR0cmlidXRlcyI6bnVsbCwiZXh0ZXJuYWxDb2RlIjpudWxsfV0sImNsaWVudENvZGVzIjpudWxsLCJsb2NrZWQiOmZhbHNlLCJkaXNhYmxlIjpmYWxzZSwiYm91bmRUUEF1dGhUeXBlcyI6W119LCJncmFudF90eXBlIjoicGFzc3dvcmQiLCJ1c2VyX25hbWUiOiJmZW5naGFvIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTU5MTc1OTk4NiwiYXV0aG9yaXRpZXMiOlsiT2VHRjFFbjlvQlA3T3RRaEZ1cFBlT2p1b0RXeUV2ZzMiLCI1c0dxdW9kN3NSOXEwTE5Ua0tKNGdUc3lsekN1T3VwQSIsImdtYTl1TFVHTFY2c2tPZ2U1WG54N2JleFlEVWNpSHJpIl0sImp0aSI6ImRhZDc0M2NhLTU2MjktNGQ4Mi05OWI3LThhMTc1YTI3ODBmMyIsImNsaWVudF9pZCI6ImFkbWluIn0.DAWUeXdqmC_fRs49UNkPzJPqpbB-xGAOqbTosCm7qGA",
+						"type": "text"
+					},
+					{
+						"key": "sobeyhive-http-site",
+						"value": "sobeyLingYunMall",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46JDBiRXlIaXZlJjJvMVNpeA==",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "password",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "sobeyxiaodan",
+							"description": "sobeyxiaodan /  jiangfan  /18780127374",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "S0obeylingyun",
+							"description": "S0obeylingyun  /  Lingyun123 /123Qaz",
+							"type": "text"
+						},
+						{
+							"key": "Authorization",
+							"value": "Basic TGluZ3l1bl9tYWxsOmFiODEyMWRkMjlhMDRjZTBiYzNkYjgyOGU2ZjNkMjBh",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://authentication.sobeylingyun.com/oauth/token",
+					"protocol": "https",
+					"host": [
+						"authentication",
+						"sobeylingyun",
+						"com"
+					],
+					"path": [
+						"oauth",
+						"token"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "凌云线上测试环境---/lyc_middle_ware/req_lyc_t_code",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"uid\":\"bcfbf07194454438a5771eeff8992ebd\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "124.70.91.8:3000/lyc_middle_ware/req_lyc_code",
+					"host": [
+						"124",
+						"70",
+						"91",
+						"8"
+					],
+					"port": "3000",
+					"path": [
+						"lyc_middle_ware",
+						"req_lyc_code"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "县融线上测试环境---/lyc_middle_ware/req_lyc_t_code",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"uid\":\"afb6c47562434feaa57b3a5262a55f5c\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "124.70.91.8:3000/lyc_middle_ware/req_lyc_code",
+					"host": [
+						"124",
+						"70",
+						"91",
+						"8"
+					],
+					"port": "3000",
+					"path": [
+						"lyc_middle_ware",
+						"req_lyc_code"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

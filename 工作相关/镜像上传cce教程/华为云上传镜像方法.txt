@@ -1,0 +1,23 @@
+在安装容器引擎的机器给2048-demo镜像打标签。
+docker tag [镜像名称:版本名称] [镜像仓库地址]/[组织名称]/[镜像名称:版本名称]
+
+样例如下：
+
+docker tag 2048-demo:v1 swr.cn-north-1.myhuaweicloud.com/group/2048-demo:v1
+
+其中：
+
+swr.cn-north-1.myhuaweicloud.com为容器镜像服务的镜像仓库地址。
+group为组织名称。
+2048-demo:v1为镜像名称和版本号。
+上传镜像至镜像仓库。
+docker push [镜像仓库地址]/[组织名称]/[镜像名称:版本名称]
+
+样例如下：
+
+docker push swr.cn-north-1.myhuaweicloud.com/group/2048-demo:v1
+
+终端显示如下信息，表明上传镜像成功。
+
+sobey测试环境
+docker push swr.cn-north-4.myhuaweicloud.com/sobey-cloud/${name}:$3;  

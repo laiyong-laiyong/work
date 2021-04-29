@@ -1,0 +1,24 @@
+华为云cce子账号   lyc-laiyong    8023Love8023
+
+华为云租户名  sobeylingyun
+
+hive相关接口文档：http://172.16.148.233/hive-api-v3/sauth/auth/001.html
+
+跨站点的接口文档：https://authentication.sobeylingyun.com/doc.html
+
+#商品的域名访问
+productDomain： 可随便填值
+
+#认证中心的资源编号
+resource：
+       root：49
+       product：51
+
+本地swagger文档访问地址（以product微服务为例）：
+http://localhost/sobeyMallproduct/swagger-ui.html#/
+
+github代码地址：
+https://github.com/moshilgc/sobey-mall
+
+刷新本地DNS：ipconfig /flushdns、、
+
