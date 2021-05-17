@@ -26,3 +26,7 @@ https://github.com/moshilgc/sobey-mall
 
 刷新本地DNS：ipconfig /flushdns、、
 
+url: jdbc:mysql://localhost:3306/sobey_mall_panda?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false
+username: root
+password: root
+
