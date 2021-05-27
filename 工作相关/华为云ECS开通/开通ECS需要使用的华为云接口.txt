@@ -10,7 +10,7 @@
 
 开机、关机、重启、重置密码：https://support.huaweicloud.com/api-ecs/ecs_02_0300.html
 
-续费：https://support.huaweicloud.com/api-oce/api_order_00018.html
+续费：https://support.huaweicloud.com/api-oce/a9pi_order_00018.html
 
 退订：https://support.huaweicloud.com/api-oce/api_order_00019.html
 
