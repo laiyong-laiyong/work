@@ -6,14 +6,21 @@
 
 查询客户包年/包月资源列表：https://support.huaweicloud.com/api-oce/api_order_00021.html#toTop
 
-支付包周期产品订单：https://support.huaweicloud.com/api-bpconsole/api_order_00016.html
+支付包年/包月产品订单：https://support.huaweicloud.com/api-bpconsole/api_order_00016.html
 
 开机、关机、重启、重置密码：https://support.huaweicloud.com/api-ecs/ecs_02_0300.html
 
-续费：https://support.huaweicloud.com/api-oce/a9pi_order_00018.html
+续订包年/包月资源：https://support.huaweicloud.com/api-oce/api_order_00018.html
 
-退订：https://support.huaweicloud.com/api-oce/api_order_00019.html
+退订包年/包月资源：https://support.huaweicloud.com/api-oce/api_order_00019.html
 
 删除按需云服务器：https://support.huaweicloud.com/api-ecs/ecs_02_0103.html
 
 获取用户token：https://support.huaweicloud.com/api-iam/iam_30_0001.html
+
+查询订单可用折扣：https://support.huaweicloud.com/api-bpconsole/api_order_00025.html
+
+
+
+
+华为云SDK使用文档：https://github.com/huaweicloud/huaweicloud-sdk-java-v3/blob/master/README_CN.md
