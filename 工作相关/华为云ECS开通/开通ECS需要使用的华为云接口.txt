@@ -20,6 +20,8 @@
 
 查询订单可用折扣：https://support.huaweicloud.com/api-bpconsole/api_order_00025.html
 
+地区和终端节点：https://developer.huaweicloud.com/endpoint
+
 
 
 
