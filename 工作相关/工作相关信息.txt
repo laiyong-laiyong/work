@@ -26,14 +26,10 @@ resource：
 本地swagger文档访问地址（以product微服务为例）：
 http://localhost/sobeyMallproduct/swagger-ui.html#/
 
-github代码地址：
-https://github.com/moshilgc/sobey-mall
-
-{
-    "job_id": "ff80808279420f760179ace072320330",
-    "serverIds": [
-        "8243d603-cdec-4fde-8d76-e3d5425b39b9"
-    ],
-    "order_id": "CS2105271611MT2NF"
-}
+代码中的方法名进行统一：
+save：新增
+query：查询
+modify：修改
+remove：删除
+callback：回调
 
