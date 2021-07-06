@@ -6,14 +6,18 @@ hive相关接口文档：http://172.16.148.233/hive-api-v3/sauth/auth/001.html
 
 跨站点的接口文档：https://authentication.sobeylingyun.com/doc.html
 
-测试账号级密码：
+测试账号及密码：
 肖丹：
 sobeyxiaodan
 S0obeylingyun
 
+正是环境及密码：
 何林：
 13000000007
 Sobey2021
+
+正式环境跳板机
+124.70.16.90  administrator  Ling@Yun!s0ey2020
 
 #商品的域名访问
 productDomain： 可随便填值
