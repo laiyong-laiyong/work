@@ -17,7 +17,7 @@ S0obeylingyun
 Sobey2021
 
 正式环境跳板机
-124.70.16.90  administrator  Ling@Yun!s0ey2020
+124.70.16.90  administrator  Ling@Yun!s0ey2020    406023@gxull!ECWLB
 
 #商品的域名访问
 productDomain： 可随便填值

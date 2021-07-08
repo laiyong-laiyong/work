@@ -1,0 +1,12 @@
+
+
+
+
+1080p  width 1920 height 1080 
+rate_frequency  25
+rate_scale 1
+scan_mode 2
+bits_per_pixel 8
+color_space Rec  709
+sample_rate 48000
+channel_count 2
