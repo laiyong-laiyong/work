@@ -1,0 +1,54 @@
+
+
+
+收录和上载存储文件夹路径规则
+
+livehandclip(对象存储桶名,暂定名称)
+	include(固定名称,不能变)
+		userId(用户的id,需要变)
+		    video(固定名称,不能变)
+			    2020-07-09(日期,用-分割，需要变)
+				    文件1
+				    文件2
+		    audio(固定名称,不能变)
+			    2020-07-09(日期,用-分割，需要变)
+				    文件1
+				    文件2
+		    picture(固定名称,不能变)
+			    2020-07-09(日期,用-分割，需要变)
+				    文件1
+				    文件2	   
+	   
+    upload(固定名称,不能变)
+		userId(用户的id,需要变)
+		    video(固定名称,不能变)
+			    2020-07-09(日期,用-分割，需要变)
+				    文件1
+				    文件2
+		    audio(固定名称,不能变)
+			    2020-07-09(日期,用-分割，需要变)
+				    文件1
+				    文件2
+		    picture(固定名称,不能变)
+			    2020-07-09(日期,用-分割，需要变)
+				    文件1
+				    文件2	  
+	   
+
+
+
+oss://SUTNYI4XHUHVSNSQHZKX:20YbBpxW45R3F18sBthbdaLxsaXA9FWui6JDEVqg@obs.cn-north-4.myhuaweicloud.com/livehandclip/include/{file}?product=amazon&amp;type=http&amp;version=2
+
+说明：
+  livehandclip是桶名
+  {file}是你需要替换的，具体的值按照"对象存储路径规则"。
+  {file}示例：{userId}/video/2020-07-09/test.mpg
+  
+
+
+
+
+
+
+
+  

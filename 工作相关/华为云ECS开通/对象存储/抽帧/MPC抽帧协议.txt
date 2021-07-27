@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MPC xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Header>
+    <Version>1.5</Version>
+    <RequestID>839a9fdc25234d4a99f5a956af197b0e</RequestID>
+    <RequestTime>2020-07-03T13:12:41.577CST</RequestTime>
+  </Header>
+  <Content>
+    <MPCType>AddTask</MPCType>
+    <AddTask>
+      <BaseInfo>
+        <TaskGUID>cd76d555a8034bb4aa628e58f43138eb</TaskGUID>
+        <TaskName>Keyframe_video_xx_2020-07-03_131132[09086337728043c3aa4e0ce7eeaba114]</TaskName>
+        <PutinTime>2020-07-03 13:12:41</PutinTime>
+      </BaseInfo>
+      <MediaFile>
+        <GroupType>d8f865467dff422f8a324cc24ab4f96a</GroupType>
+        <MediaType>videogroup</MediaType>
+        <FileName>\\172.16.131.74\hivefiles\sobeyhive\bucket-z\u-5q5nvm1j81y27uvo-431034\videogroup#2020-07-03_131132_0.mp4</FileName>
+      </MediaFile>
+      <JobList>
+        <StepID>0</StepID>
+        <JobType>extractframe</JobType>
+        <JobInfo>
+          <Scope>tv_extractframeparam2</Scope>
+          <Schema>sbextractframeparam2.xsd</Schema>
+          <Data>
+            <ExtractFrameParam2>
+              <Src>
+                <GroupType>d8f865467dff422f8a324cc24ab4f96a</GroupType>
+                <MediaType>videogroup</MediaType>
+              </Src>
+              <Option>
+                <OnTargetExist>1</OnTargetExist>
+                <AnalyzeTarget>0</AnalyzeTarget>
+              </Option>
+              <Image>
+                <GroupType>d8f865467dff422f8a324cc24ab4f96a</GroupType>
+                <MediaType>grouptype=keyframe_##index=100##groupname=keyframe_</MediaType>
+                <TargetFullPath>\\172.16.131.74\hivefiles\sobeyhive\bucket-k\u-o22y9me3w5s1tch1\keyframes\biz_sobey_video\2020\07\03\1e7d772b04844b3dbb2c9622330dae9b_videogroup_220_124_0.jpg</TargetFullPath>
+                <FrameNum>0</FrameNum>
+                <RefKeyFrameNo>0</RefKeyFrameNo>
+              </Image>
+              <ImageType>jpg</ImageType>
+              <ImageWidth>220</ImageWidth>
+              <ImageHeight>124</ImageHeight>
+            </ExtractFrameParam2>
+          </Data>
+        </JobInfo>
+      </JobList>
+    </AddTask>
+  </Content>
+</MPC>
