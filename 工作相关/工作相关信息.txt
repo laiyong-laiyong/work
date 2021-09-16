@@ -19,6 +19,9 @@ Sobey2021
 凌云演示LYC
 Sobey2o2o
 
+测试环境跳板机
+121.36.101.150  端口33899     administrator  Sobey@2019
+
 正式环境跳板机
 124.70.16.90  administrator  Ling@Yun!s0ey2020    406023@gxull!ECWLB
 
