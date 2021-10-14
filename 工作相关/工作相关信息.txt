@@ -25,6 +25,10 @@ Sobey2o2o
 正式环境跳板机
 124.70.16.90  administrator  Ling@Yun!s0ey2020    406023@gxull!ECWLB
 
+西安环境跳板机
+123.60.222.161 administrator/Ling@Yun!s0bey2o21
+124.70.63.191 administrator/Ling@Yun!s0bey2o21
+
 #商品的域名访问
 productDomain： 可随便填值
 
