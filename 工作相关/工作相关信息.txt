@@ -6,6 +6,10 @@ hive相关接口文档：http://172.16.148.233/hive-api-v3/sauth/auth/001.html
 
 跨站点的接口文档：https://authentication.sobeylingyun.com/doc.html
 
+公司gitlab地址：http://192.168.252.34/
+账号：laiyong
+密码：laiyong
+
 测试账号及密码：
 肖丹：
 sobeyxiaodan
