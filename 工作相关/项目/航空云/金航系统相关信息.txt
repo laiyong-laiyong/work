@@ -1,0 +1,12 @@
+金航rancher地址：https://172.16.200.130:64443/login      
+用户名：admin      
+密码：DDfwL2cgPJfR8ehJAMvQ   
+
+Access Key(用户名):
+token-6rw2j 
+Secret Key(密码):
+d8trl76bnxncglznfh9284vvmtlbgpg7lxl7zmnm7bd82qrhvsrrlg 
+Access Key 和 Secret Key 可以作为 HTTP 基本身份验证的用户名和密码发送，以授权请求。您也可以将它们组合为 Bearer Token:
+
+Bearer Token:
+token-6rw2j:d8trl76bnxncglznfh9284vvmtlbgpg7lxl7zmnm7bd82qrhvsrrlg 
