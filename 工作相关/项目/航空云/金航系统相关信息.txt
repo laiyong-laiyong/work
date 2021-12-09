@@ -1,4 +1,4 @@
-金航rancher地址：https://172.16.200.130:64443/login      
+金航rancher地址：https://172.16.200.128:64443/login      
 用户名：admin      
 密码：DDfwL2cgPJfR8ehJAMvQ   
 
@@ -10,3 +10,19 @@ Access Key 和 Secret Key 可以作为 HTTP 基本身份验证的用户名和密
 
 Bearer Token:
 token-6rw2j:d8trl76bnxncglznfh9284vvmtlbgpg7lxl7zmnm7bd82qrhvsrrlg 
+
+
+麒麟V10打包环境：
+172.16.200.148
+root/SobeyHive2016
+
+登录
+docker login -u admin -p sobeyhive 172.16.200.130:5000
+
+打包镜像推送镜像
+docker build -t 172.16.200.130:5000/sobey/sobey-rancher:1.1.2-ly .
+docker push 172.16.200.130:5000/sobey/sobey-rancher:1.1.2-ly
+
+Harbor仓库
+admin 
+sobeyhive
