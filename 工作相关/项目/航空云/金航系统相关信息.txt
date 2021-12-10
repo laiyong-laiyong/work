@@ -26,3 +26,7 @@ docker push 172.16.200.130:5000/sobey/sobey-rancher:1.1.2-ly
 Harbor仓库
 admin 
 sobeyhive
+
+查询环境变量是否读取成功：
+env | grep rancher
+env | grep token
