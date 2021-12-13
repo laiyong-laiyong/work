@@ -1,6 +1,6 @@
 金航rancher地址：https://172.16.200.128:64443/login      
 用户名：admin      
-密码：DDfwL2cgPJfR8ehJAMvQ   
+密码：DDfwL2cgPJfR8ehJAMvQ
 
 Access Key(用户名):
 token-6rw2j 
@@ -30,3 +30,10 @@ sobeyhive
 查询环境变量是否读取成功：
 env | grep rancher
 env | grep token
+
+新建节点测试机器：
+172.16.200.141
+root/SobeyHive2016
+
+amd  flannel canal 
+arm flannel
