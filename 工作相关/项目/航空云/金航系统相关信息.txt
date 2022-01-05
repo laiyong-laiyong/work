@@ -37,3 +37,10 @@ root/SobeyHive2016
 
 amd  flannel canal 
 arm flannel
+
+获取测试环境token携带的参数：
+{
+    "orgName":"sobey",
+    "username":"admin",
+    "password":"Test1234"
+}
