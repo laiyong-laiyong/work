@@ -44,3 +44,34 @@ arm flannel
     "username":"admin",
     "password":"Test1234"
 }
+
+环境说明
+环境A（我们服务部署环境，一般情况下勿动）
+● Web前端
+    ○ 地址：http://172.16.200.140:30080
+    ○ 组织/账号/密码：sobey/admin/Test1234
+● sp-auth-service
+    ○ 地址：http://172.16.200.140:32100
+● sp-k8sman-service
+    ○ 地址：http://172.16.200.140:32101
+● sp-imagelibrary-service
+    ○ 地址：http://172.16.200.140:32105
+● Rancher
+    ○ 地址：https://172.16.200.140:64443
+    ○ 账号/密码：admin/SVJ4lrX4KPFAXCSG-1bt
+● Harbor
+    ○ 地址：https://172.16.200.140:5000
+    ○ 账号/密码：admin/sobeyhive 
+● Mysql
+    ○ 地址：172.16.200.140:3307
+    ○ 账号/密码：sobeyhive/$0bEyHive&2o1Six
+● Redis
+    ○ 地址：172.16.200.140:6389
+    ○ 密码：SobeyHive2016
+环境B（被管理环境，用于研发测试）
+● Rancher
+    ○ 地址：https://172.16.200.135:64443
+    ○ 账号/密码：admin/4w2dekV_JSdcHn7r9SxE
+● Harbor
+    ○ 地址：https://172.16.200.135:5000
+    ○ 账号/密码：admin/sobeyhive
