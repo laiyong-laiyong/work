@@ -1,0 +1,34 @@
+{
+  "tmpl": {
+    "id": "0",
+    "name": "test",
+    "iaasTypes": ["vsip"],
+    "vmType": "kvm",
+    "cpu": 2,
+    "mem": 8,
+    "osFamily": "linux",
+    "osType": "centos",
+    "osArch": "aarch64",
+    "osBits": 64,
+    "diskSize": 200,
+    "nicInfo": [
+      {
+        "vnicBridge": "br1",
+        "gateways": "172.16.200.1",
+        "subnetMask": "255.255.255.0",
+        "dnsAddress": "172.16.200.130",
+        "ipaddress": "172.16.200.143",
+        "macAddress": "52:54:00:b3:f6:b1"
+      }
+    ],
+    "iaasTempl": "Kylin-Rancher-Tmpl",
+    "repoName": "lfsRepo",
+    "labels": {},
+    "otherAttr": {}
+  },
+  "iaasType": "vsip",
+  "requestSize": 1,
+  "availableNum": 0,
+  "vmName": "api-test1",
+  "callBack": "http://localhost:8080/iaas/v1/iaas/vhost/callbackTest"
+}
