@@ -76,9 +76,15 @@ arm flannel
     ○ 地址：https://172.16.200.135:5000
     ○ 账号/密码：admin/sobeyhive
 
+sobey
+admin
+Test1234
+
 token-kb9lb:jtkrhcv6vvgrm6mzn4ggfzqhn7wgqk2ddsmwxfvg89xgkk9l5xd4tl
 
 @GetMapping("/test")
     public void test() {
         vms.test();
     }
+
+http://localhost:9064/v1/k8s/service/list?labelSelector=app=grafana,chart=grafana-0.0.1
