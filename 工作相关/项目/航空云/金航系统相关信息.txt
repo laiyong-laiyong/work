@@ -76,6 +76,11 @@ arm flannel
     ○ 地址：https://172.16.200.135:5000
     ○ 账号/密码：admin/sobeyhive
 
+jenkins：
+sobeypaasuser
+sobeypaasuser
+
+航空云环境：
 sobey
 admin
 Test1234
