@@ -4,7 +4,7 @@
     "name": "test",
     "iaasTypes": ["vsip"],
     "vmType": "kvm",
-    "cpu": 2,
+    "cpu": 4,
     "mem": 8,
     "osFamily": "linux",
     "osType": "centos",
@@ -16,12 +16,12 @@
         "vnicBridge": "br1",
         "gateways": "172.16.200.1",
         "subnetMask": "255.255.255.0",
-        "dnsAddress": "172.16.200.130",
-        "ipaddress": "172.16.200.143",
+        "dnsAddress": "172.16.200.135",
+        "ipaddress": "虚拟机ip",
         "macAddress": "52:54:00:b3:f6:b1"
       }
     ],
-    "iaasTempl": "Kylin-Rancher-Tmpl",
+    "iaasTempl": "Kylin-Server-10-SP2-v1",
     "repoName": "lfsRepo",
     "labels": {},
     "otherAttr": {}
@@ -29,6 +29,6 @@
   "iaasType": "vsip",
   "requestSize": 1,
   "availableNum": 0,
-  "vmName": "api-test1",
+  "vmName": "虚拟机名称",
   "callBack": "http://localhost:8080/iaas/v1/iaas/vhost/callbackTest"
 }
