@@ -4,6 +4,8 @@
 
 阿里云账号：sobeylingcloud    Ling@Yun!s0bey-2020
 
+阿里云子账号：https://www.yuque.com/books/share/956fa8f1-6029-4e8e-90a6-804200f6ae64?#    fftd
+
 hive相关接口文档：http://172.16.148.233/hive-api-v3/sauth/auth/001.html
 
 跨站点的接口文档：https://authentication.sobeylingyun.com/doc.html
