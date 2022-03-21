@@ -2,6 +2,8 @@
 
 华为云租户名  sobeylingyun
 
+阿里云账号：sobeylingcloud    Ling@Yun!s0bey-2020
+
 hive相关接口文档：http://172.16.148.233/hive-api-v3/sauth/auth/001.html
 
 跨站点的接口文档：https://authentication.sobeylingyun.com/doc.html
