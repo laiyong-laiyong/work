@@ -93,3 +93,5 @@ token-kb9lb:jtkrhcv6vvgrm6mzn4ggfzqhn7wgqk2ddsmwxfvg89xgkk9l5xd4tl
     }
 
 http://localhost:9064/v1/k8s/service/list?labelSelector=app=grafana,chart=grafana-0.0.1
+
+纯系统模板：Kylin-Server-10-SP2-v1
