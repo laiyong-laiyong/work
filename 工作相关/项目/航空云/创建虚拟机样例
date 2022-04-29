@@ -16,12 +16,12 @@
         "vnicBridge": "br1",
         "gateways": "172.16.200.1",
         "subnetMask": "255.255.255.0",
-        "dnsAddress": "172.16.200.135",
-        "ipaddress": "虚拟机ip",
+        "dnsAddress": "172.16.200.111",
+        "ipaddress": "172.16.200.166",
         "macAddress": "52:54:00:b3:f6:b1"
       }
     ],
-    "iaasTempl": "Kylin-Server-10-SP2-v1",
+    "iaasTempl": "kylin-v10-template-arm64-v1",
     "repoName": "lfsRepo",
     "labels": {},
     "otherAttr": {}
@@ -29,6 +29,6 @@
   "iaasType": "vsip",
   "requestSize": 1,
   "availableNum": 0,
-  "vmName": "虚拟机名称",
+  "vmName": "mount-test",
   "callBack": "http://localhost:8080/iaas/v1/iaas/vhost/callbackTest"
 }
