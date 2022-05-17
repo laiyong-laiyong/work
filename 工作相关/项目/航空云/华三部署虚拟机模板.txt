@@ -1,0 +1,29 @@
+
+{
+  "vmId": "ly-intest",
+  "snap": null,
+  "vmTemplate": "3",
+  "vmCPUNum": 1,
+  "vmMemSize": 4294967296,
+  "vmDiskSize": 214748364800,
+  "repoName": null,
+  "hostId": "3",
+  "vmName": "ly-intest",
+  "vmEncrypt": null,
+  "encrypt_fmt": null,
+  "vmNetCardNum": null,
+  "password": "Sobey@123",
+  "licenceKey": null,
+  "vmNics": [
+    {
+      "ipAddress": "172.16.200.176",
+      "gateways": "172.16.200.1",
+      "subnetMask": "255.255.255.0",
+      "dnsAddress": "8.8.8.8",
+      "vnicBridge": null,
+      "macAddress": "0c:da:41:1d:20:fa",
+      "nicRate": null
+    }
+  ],
+  "taskId": "1"
+}
